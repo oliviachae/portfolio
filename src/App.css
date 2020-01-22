@@ -3,9 +3,10 @@
   
 }
 
-
+body {
+  background-color: rgb(250, 221, 226);
+}
 .App-header {
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -19,3 +20,20 @@
   color: #61dafb;
 }
 
+img {
+  width:300px;
+  height:400px;
+}
+
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
+
+.icons {
+  width:30px;
+  height:40px;
+}
