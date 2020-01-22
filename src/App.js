@@ -6,23 +6,33 @@ import html from './images/html-5.svg';
 import JS from './images/javascript.svg';
 import gitHub from './images/github-image.svg';
 import gmail from './images/gmail.svg';
+import instagram from './images/instagram.svg';
 
 function App() {
   return (
     <div className="App">
       <Subject title="Jiyoon's Personal Site" 
-      sub=" Hi, I am a web developer based in London, UK.
-      I have a passion for web development and web design!"></Subject>
+      sub="Welcom to my website ❤"></Subject>
       <div>
       <img src={picture} alt='jiyoon' /> </div>
+      <p> Hi, I am a web developer based in London, UK.<br />
+       I have a passion for web development and web design!</p>
+       <hr />
       <Introduce></Introduce>
+      <hr />
+
       <Content></Content>
+
       <div className='container'>
         <div className='item'><a href="https://github.com/oliviachae/portfolio/commits/master"><img className='icons' src={gitHub} 
         alt='github link' /> </a></div>
         <div className='item'> <img className='icons' src={gmail} alt='contact by email' /></div>
-        <div className='item'>idontknow</div>
+        <div className='item'><img className='icons' src={instagram} alt='instagram' /></div>
       </div>
+      <br />
+      <br />
+      <br />
+
     </div>
   );
 }
